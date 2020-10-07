@@ -95,10 +95,14 @@ align-self: flex-start;
 
 .section-grey {
     background: #f4f4f4;
+    height: 300px;
+    padding: 10px;
 }
 
 .section-white {
     background: #ECEAEA;
+    height: 300px;
+    padding: 10px;
 }
 
 /* Profile picture */
