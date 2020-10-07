@@ -4,17 +4,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap');
 
 /* Colors for later:
+Dark pink:
 #7D4A50
+#9C545A
+
+Brighter pink:  
+#BF8E92
+#D8827B
 #D6837B
 #D79A9C
-#ECEAEA
-#858289
-
-#858285
-#BF8E92
-#ECEAEA
-#D8827B
-#9C545A
 */
 
 /* Basic styling */
@@ -77,6 +75,24 @@ align-self: flex-start;
 
 /* Style for different sections */
 
+.pink-line {
+    display: inline-block;
+    width: 80px;
+    height: 9px;
+    border-top: 3px solid #9C545A
+}
+
+.pink-dot {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #9C545A;
+    background-color: #9C545A;
+    margin-right: 15px;
+    margin-left: -1px;
+    border-radius: 50%;
+}
+
 .section-grey {
     background: #f4f4f4;
 }
@@ -103,6 +119,17 @@ align-self: flex-start;
     .profile-picture {
         width: 150px;
         height: 150px;
+    }
+
+    .pink-line {
+        width: 30px;
+        height: 4px;
+        border-top: 2px solid #9C545A;
+    }
+    
+    .pink-dot {
+        width: 6px;
+        height: 6px;
     }
 }
 
