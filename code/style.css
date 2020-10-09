@@ -1,0 +1,242 @@
+/* Style for project: portfolio */
+
+/* Fonts imported from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+/* Colors for later:
+
+#61BDC2 blue
+#B2DED7 turqoise
+#C7DED6 light green
+#F5B4B4 darker pink
+#FBB5BA lighter pink
+
+*/
+
+/* Basic styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+/* Style for the header */
+.header-h1 {
+    color: #ffffff;
+    font: bold;
+    font-size: 40px;
+}
+
+.header-h2 {
+    color: #ffffff;
+    font: bold;
+    margin-top: 10px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+    /* Photo by Gradienta from Unsplash */
+    background-image: linear-gradient(rgba(142, 142, 142, 0.3), rgba(230, 230, 230, 0.2)), url(./img/gradienta-7brhZmwXn08-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding: 46px 32px 0 32px;
+}
+
+.header-text {
+align-self: flex-start;
+}
+
+.icon {
+    display: inline-flex;
+    justify-content: center;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+/* Style for the profile picture */
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    margin-bottom: -30px;
+}
+
+.pink-line {
+    display: inline-block;
+    width: 80px;
+    height: 9px;
+    border-top: 3px solid #F5B4B4;
+}
+
+.pink-dot {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #F5B4B4;
+    background-color: #F5B4B4;
+    margin-right: 15px;
+    margin-left: -1px;
+    border-radius: 50%;
+}
+
+/* Basic styling for grey and white sections */
+.section-grey {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #f4f4f4;
+    height: 100%;
+    padding: 46px 32px 46px 32px;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    line-height: 1.6;
+}
+
+.section-white {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background: #ffffff;
+    height: 100%;
+    padding: 46px 32px 46px 32px;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    line-height: 1.6;
+}
+
+.heading-box {
+    text-align: center;
+    background: #F5B4B4;
+    color: #ffffff;
+    margin: auto;
+    padding: 1px 16px 1px 16px;
+}
+
+
+/* Style for tech-section */
+.tech-text {
+    margin-top: 20px;
+}
+
+/*Style for project section 
+.section-grey.featured-projects {
+*/
+.project-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+/* Style for project cards */
+
+
+.project-card-img {
+    object-fit: contain;
+    max-width: 100%;
+}
+
+
+/* Style for the footer */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: #ffffff;
+    background:#61BDC2;  
+    height: 250px;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    line-height: 2.0;
+}
+
+.footer-text {
+    font-weight: bold;
+}
+
+.footer > a {
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* Media queries - Responsive design */
+
+/*  Smaller smartphones / mobile phones */
+@media screen and (min-width: 280px) {
+    
+    /* Profile picture */
+    .profile-picture {
+        width: 150px;
+        height: 150px;
+    }
+
+    /* Pink line with dot */
+    .pink-line {
+        width: 45px;
+        height: 7px;   
+     }
+    
+    .pink-dot {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+/* Smartphones -> large display smartphones */
+@media screen and (min-width:420px) {
+    .header {
+        padding: 100px 100px 0 100px;
+    }
+    
+    .profile-picture {
+        width: 200px;
+        height: 200px;
+    }
+}
+  
+/* Large display tablets or smartphones landscape mode */
+@media screen and (min-width:768px) {
+    .header {
+        padding: 120px 120px 0 120px;
+    }
+    
+    .profile-picture {
+        width: 250px;
+        height: 250px;
+    } 
+
+}
+
+/* Desktop */
+@media screen and (min-width:1200px) {
+    .header {
+        padding: 120px 120px 0 120px;
+    }
+    
+    .profile-picture {
+        width: 300px;
+        height: 300px;
+    }
+}
