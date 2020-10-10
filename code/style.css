@@ -1,7 +1,7 @@
 /* Style for project: portfolio */
 
 /* Fonts imported from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap');
 
 /* Colors for later:
 
@@ -28,7 +28,32 @@ body {
     font-family: 'Montserrat', 'sans-serif';
 }
 
+p {
+    font-weight: lighter;
+}
+
+a {
+    color: #61BDC2;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
 /* Style for the header */
+
+.portfolio-header {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: lighter;
+    padding: 5px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+
 .header-h1 {
     color: #ffffff;
     font: bold;
@@ -48,7 +73,7 @@ body {
     justify-content: space-between;
     width: 100%;
     /* Photo by Gradienta from Unsplash */
-    background-image: linear-gradient(rgba(142, 142, 142, 0.3), rgba(230, 230, 230, 0.2)), url(./img/gradienta-7brhZmwXn08-unsplash.jpg);
+    background-image: linear-gradient(rgba(121, 119, 119, 0.205), rgba(230, 230, 230, 0.253)), url(./img/gradienta-7brhZmwXn08-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
@@ -66,6 +91,7 @@ align-self: flex-start;
     border-radius: 50%;
     width: 50px;
     height: 50px;
+    cursor: pointer;
 }
 
 /* Style for the profile picture */
@@ -74,7 +100,7 @@ align-self: flex-start;
     height: 200px;
     border: 3px solid #ffffff;
     border-radius: 50%;
-    margin-bottom: -30px;
+    margin-bottom: -25px;
 }
 
 .pink-line {
@@ -135,9 +161,7 @@ align-self: flex-start;
     margin-top: 20px;
 }
 
-/*Style for project section 
-.section-grey.featured-projects {
-*/
+/*Style for project section */
 .project-wrapper {
     display: flex;
     flex-direction: column;
@@ -147,11 +171,52 @@ align-self: flex-start;
 }
 
 /* Style for project cards */
+.project-card {
+width: 400px;
+}
 
+.project-card-link {
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+}
 
 .project-card-img {
-    object-fit: contain;
     max-width: 100%;
+}
+
+.project-description {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.project-title, .arrow {
+    color: #F5B4B4;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.arrow {
+    text-decoration: underline;
+}
+
+.project-text {
+    font-weight: lighter;
+}
+
+.tags {
+    display: inline-flex;
+    margin: 10px 0px 40px 0px;
+}
+
+.category {
+    font-family: 'Roboto';
+    font-size: 12px;
+    background: #B2DED7;
+    color: #ffffff;
+    margin-right: 10px;
+    padding: 2px 6px 2px 6px;
 }
 
 
@@ -183,7 +248,6 @@ align-self: flex-start;
 
 /* Media queries - Responsive design */
 
-/*  Smaller smartphones / mobile phones */
 @media screen and (min-width: 280px) {
     
     /* Profile picture */
@@ -191,35 +255,18 @@ align-self: flex-start;
         width: 150px;
         height: 150px;
     }
-
-    /* Pink line with dot */
-    .pink-line {
-        width: 45px;
-        height: 7px;   
-     }
-    
-    .pink-dot {
-        width: 10px;
-        height: 10px;
-    }
 }
 
-/* Smartphones -> large display smartphones */
 @media screen and (min-width:420px) {
-    .header {
-        padding: 100px 100px 0 100px;
-    }
+
     
-    .profile-picture {
-        width: 200px;
-        height: 200px;
-    }
 }
+
   
-/* Large display tablets or smartphones landscape mode */
 @media screen and (min-width:768px) {
+    
     .header {
-        padding: 120px 120px 0 120px;
+        padding: 86px 62px 0px 62px;
     }
     
     .profile-picture {
@@ -227,16 +274,44 @@ align-self: flex-start;
         height: 250px;
     } 
 
+    .section-grey {
+        padding: 86px 62px 0px 62px;
+    }
+
+    .section-white {
+        padding: 86px 62px 0px 62px;
+    }
+
 }
 
-/* Desktop */
 @media screen and (min-width:1200px) {
+
     .header {
-        padding: 120px 120px 0 120px;
+        padding: 90px 350px 100px 350px;
+    }
+
+    .header-h1 {
+        font-size: 50px;
     }
     
+    .header-h2 {
+        font-size: 35px;
+    }
+
     .profile-picture {
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
+    }
+
+    .section-grey {
+        padding: 90px 350px 100px 350px;
+    }
+
+    .section-white {
+        padding: 90px 350px 100px 350px;
+    }
+
+    .heading-box {
+        font-size: 22px;
     }
 }
