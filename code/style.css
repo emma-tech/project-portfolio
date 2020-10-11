@@ -22,6 +22,10 @@
 
 * {
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
     margin: 0;
     padding: 0;
 }
@@ -248,7 +252,7 @@ align-self: flex-start;
     margin-top: 15px;
 }
 
-/* Specific style for the thoughts - section */
+/* Specific style for thoughts - section */
 
 .section-white.thoughts-section {
     text-align: left;
@@ -278,6 +282,29 @@ align-self: flex-start;
     font-weight: bold;
     color: #000000;
 }
+
+/* Specific style for skills - section */
+
+.section-grey.skills {
+    text-align: center;
+}
+
+.skills-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    font-family: 'Roboto', 'Sans-serif';
+}
+
+.skills-container {
+    width: 50%;
+}
+
+.skills-heading {
+    color: #F5B4B4;
+    margin-top: 20px;
+}
+
 
 /* ======================================================= */
 
@@ -354,7 +381,7 @@ align-self: flex-start;
 @media screen and (min-width:1024px) {
 
     .header {
-        padding: 90px 100px 90px 100px;
+        padding: 100px 120px 90px 120px;
     }
 
     .profile-picture {
@@ -363,11 +390,11 @@ align-self: flex-start;
     }
 
     .section-grey {
-        padding: 90px 100px 90px 100px;
+        padding: 60px 120px 90px 120px;
     }
 
     .section-white {
-        padding: 90px 100px 90px 100px;
+        padding: 60px 120px 90px 120px;
     }
 
     /* On desktop / larger tablets: display projects and blogposts on rows instead of column */
@@ -382,20 +409,28 @@ align-self: flex-start;
         margin: 20px;
         max-width: 350px;
     }
+
+    .skills-wrapper {
+        justify-content: flex-start;
+        text-align: center;
+    }
+    .skills-container {
+        width: 33%;
+    }
 }
 
 @media screen and (min-width:1300px) {
 
     .header {
-        padding: 90px 250px 100px 250px;
+        padding: 120px 250px 100px 250px;
     }
 
     .section-grey {
-        padding: 90px 250px 100px 250px;
+        padding: 80px 250px 100px 250px;
     }
 
     .section-white {
-        padding: 90px 250px 100px 250px;
+        padding: 80px 250px 100px 250px;
     }
 
     /* On desktop / larger tablets: display projects and blogposts on rows instead of column */
@@ -411,15 +446,15 @@ align-self: flex-start;
 @media screen and (min-width:1600px) {
 
     .header {
-        padding: 90px 400px 100px 400px;
+        padding: 120px 400px 100px 400px;
     }
 
     .section-grey {
-        padding: 90px 400px 100px 400px;
+        padding: 120px 400px 100px 400px;
     }
 
     .section-white {
-        padding: 90px 400px 100px 400px;
+        padding: 120px 400px 100px 400px;
     }
 
     /* On desktop / larger tablets: display projects and blogposts on rows instead of column */
