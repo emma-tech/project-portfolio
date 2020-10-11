@@ -28,10 +28,11 @@ body {
     font-family: 'Montserrat', 'sans-serif';
 }
 
-a {
-    color: #e59c9c;
+.introduction-link {
+    color: #61BDC2;
     text-decoration: none;
     cursor: pointer;
+    font-weight: bold;
 }
 
 /* ======================================================= */
