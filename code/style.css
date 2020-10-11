@@ -305,6 +305,18 @@ align-self: flex-start;
     margin-top: 20px;
 }
 
+/* Style for the for more - section */
+.big-icon {
+    display: inline-flex;
+    justify-content: center;
+    border: 3px solid #F5B4B4;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-top: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
 
 /* ======================================================= */
 
