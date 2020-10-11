@@ -29,7 +29,7 @@ body {
 }
 
 .introduction-link {
-    color: #61BDC2;
+    color: #d05772;
     text-decoration: none;
     cursor: pointer;
     font-weight: bold;
@@ -70,7 +70,7 @@ body {
     justify-content: space-between;
     width: 100%;
     /* Photo by Gradienta from Unsplash */
-    background-image: linear-gradient(rgba(121, 119, 119, 0.205), rgba(230, 230, 230, 0.253)), url(./img/header_img.jpg);
+    background-image: linear-gradient(rgba(108, 107, 107, 0.205), rgba(187, 186, 186, 0.253)), url(./img/header_img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
@@ -111,15 +111,15 @@ align-self: flex-start;
     display: inline-block;
     width: 55px;
     height: 7px;
-    border-top: 2px solid #e59c9c;
+    border-top: 2px solid #d05772;
 }
 
 .pink-dot {
     display: inline-block;
     width: 11px;
     height: 11px;
-    border: 3px solid #e59c9c;
-    background-color: #e59c9c;
+    border: 3px solid #d05772;
+    background-color: #d05772;
     margin-right: 8px;
     margin-left: -1px;
     border-radius: 50%;
@@ -130,7 +130,7 @@ align-self: flex-start;
 .heading-box {
     font-size: 22px;
     text-align: center;
-    background: #e59c9c;
+    background: #d05772;
     color: #ffffff;
     margin: auto;
     padding: 1px 16px 1px 16px;
@@ -199,7 +199,7 @@ align-self: flex-start;
 }
 
 .article-title, .arrow {
-    color: #e59c9c;
+    color: #d05772;
     font-weight: bold;
     font-size: 18px;
 }
@@ -215,8 +215,8 @@ align-self: flex-start;
 
 .category {
     font-family: 'Roboto';
-    font-size: 12px;
-    background: #61BDC2;
+    font-size: 14px;
+    background: #62BDC3;
     color: #ffffff;
     margin-right: 10px;
     padding: 2px 6px 2px 6px;
@@ -224,7 +224,7 @@ align-self: flex-start;
 
 .header-h3 {
     text-align: center;
-    color: #e59c9c;
+    color: #d05772;
     margin-top: 40px;
     font-size: 20px;
 }
@@ -251,8 +251,7 @@ align-self: flex-start;
 
 .date {
     font-family: 'Roboto', 'sans-serif';
-    font-weight: lighter;
-    color: #e59c9c;
+    color: #d05772;
     margin-top: 15px;
     margin-bottom: 4px;
 }
@@ -292,7 +291,7 @@ align-self: flex-start;
 }
 
 .skills-heading {
-    color: #e59c9c;
+    color: #d05772;
     margin-top: 20px;
 }
 
@@ -300,7 +299,7 @@ align-self: flex-start;
 .big-icon {
     display: inline-flex;
     justify-content: center;
-    border: 3px solid #e59c9c;
+    border: 3px solid #d05772;
     border-radius: 50%;
     width: 70px;
     height: 70px;
@@ -319,7 +318,7 @@ align-self: flex-start;
     text-align: center;
     justify-content: center;
     color: #ffffff;
-    background:#61BDC2;  
+    background:#26a2aa;  
     height: 250px;
     font-size: 16px;
     letter-spacing: 0.2px;
