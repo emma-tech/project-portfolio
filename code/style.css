@@ -133,6 +133,7 @@ align-self: flex-start;
 /* Style for the pink box around section headings */
 
 .heading-box {
+    font-size: 22px;
     text-align: center;
     background: #F5B4B4;
     color: #ffffff;
@@ -230,6 +231,7 @@ align-self: flex-start;
     text-align: center;
     color: #F5B4B4;
     margin-top: 40px;
+    font-size: 20px;
 }
 
 /* ======================================================= */
@@ -270,12 +272,8 @@ align-self: flex-start;
     margin-bottom: 40px;
 }
 
-.article-card.more-thoughts {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
 .more-thoughts-link {
+    margin-top: 20px;
     font-family: 'Roboto', 'sans-serif';
     font-weight: bold;
     color: #000000;
@@ -313,6 +311,10 @@ align-self: flex-start;
 /* MEDIA QUERIES - Responsive design */
 
 @media screen and (min-width: 280px) {
+
+    .heading-box {
+        font-size: 18px;
+    }
     
     /* Profile picture */
     .profile-picture {
@@ -322,7 +324,9 @@ align-self: flex-start;
 }
 
 @media screen and (min-width:420px) {
-    
+    .heading-box {
+        font-size: 18px;
+    }
 }
 
   
@@ -347,18 +351,10 @@ align-self: flex-start;
 
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1024px) {
 
     .header {
-        padding: 90px 350px 100px 350px;
-    }
-
-    .header-h1 {
-        font-size: 50px;
-    }
-    
-    .header-h2 {
-        font-size: 35px;
+        padding: 90px 100px 90px 100px;
     }
 
     .profile-picture {
@@ -367,15 +363,71 @@ align-self: flex-start;
     }
 
     .section-grey {
-        padding: 90px 350px 100px 350px;
+        padding: 90px 100px 90px 100px;
     }
 
     .section-white {
-        padding: 90px 350px 100px 350px;
+        padding: 90px 100px 90px 100px;
     }
 
-    .heading-box {
-        font-size: 22px;
+    /* On desktop / larger tablets: display projects and blogposts on rows instead of column */
+
+    .feature-wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .article-card {
+        margin: 20px;
+        max-width: 350px;
+    }
+}
+
+@media screen and (min-width:1300px) {
+
+    .header {
+        padding: 90px 250px 100px 250px;
+    }
+
+    .section-grey {
+        padding: 90px 250px 100px 250px;
+    }
+
+    .section-white {
+        padding: 90px 250px 100px 250px;
+    }
+
+    /* On desktop / larger tablets: display projects and blogposts on rows instead of column */
+
+    .feature-wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+
+@media screen and (min-width:1600px) {
+
+    .header {
+        padding: 90px 400px 100px 400px;
+    }
+
+    .section-grey {
+        padding: 90px 400px 100px 400px;
+    }
+
+    .section-white {
+        padding: 90px 400px 100px 400px;
+    }
+
+    /* On desktop / larger tablets: display projects and blogposts on rows instead of column */
+
+    .feature-wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 }
 
