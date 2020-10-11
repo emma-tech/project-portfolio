@@ -1,4 +1,5 @@
 # project-portfolio
-My portfolio with presentation, contact details and code projects.
+First draft of my portfolio with presentation, contact details and code projects.
 
-# Link to my deployed site: 
+# Link to my deployed site (will be transferred to my own domain later): 
+https://app.netlify.com/sites/condescending-jennings-998f0a/overview
