@@ -410,10 +410,6 @@ align-self: flex-start;
         margin: 20px;
     }
 
-    .card-img {
-        max-width: 350px;
-    }
-
     .skills-wrapper {
         justify-content: flex-start;
         text-align: center;
