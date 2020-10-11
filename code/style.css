@@ -29,7 +29,7 @@ body {
 }
 
 .introduction-link {
-    color: #d05772;
+    color: #072BCE;
     text-decoration: none;
     cursor: pointer;
     font-weight: bold;
@@ -70,7 +70,7 @@ body {
     justify-content: space-between;
     width: 100%;
     /* Photo by Gradienta from Unsplash */
-    background-image: linear-gradient(rgba(108, 107, 107, 0.205), rgba(187, 186, 186, 0.253)), url(./img/header_img.jpg);
+    background-image: linear-gradient(rgba(123, 123, 123, 0.205), rgba(211, 211, 211, 0.253)), url(./img/header_img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
@@ -111,15 +111,15 @@ align-self: flex-start;
     display: inline-block;
     width: 55px;
     height: 7px;
-    border-top: 2px solid #d05772;
+    border-top: 2px solid #e1949a;
 }
 
 .pink-dot {
     display: inline-block;
     width: 11px;
     height: 11px;
-    border: 3px solid #d05772;
-    background-color: #d05772;
+    border: 3px solid #e1949a;
+    background-color: #e1949a;
     margin-right: 8px;
     margin-left: -1px;
     border-radius: 50%;
@@ -130,7 +130,7 @@ align-self: flex-start;
 .heading-box {
     font-size: 22px;
     text-align: center;
-    background: #d05772;
+    background: #e1949a;
     color: #ffffff;
     margin: auto;
     padding: 1px 16px 1px 16px;
@@ -189,7 +189,7 @@ align-self: flex-start;
 }
 
 .card-img {
-    max-width: 100%;
+    max-width: 400px;
 }
 
 .article-description {
@@ -199,7 +199,7 @@ align-self: flex-start;
 }
 
 .article-title, .arrow {
-    color: #d05772;
+    color: #e1949a;
     font-weight: bold;
     font-size: 18px;
 }
@@ -224,7 +224,7 @@ align-self: flex-start;
 
 .header-h3 {
     text-align: center;
-    color: #d05772;
+    color: #e1949a;
     margin-top: 40px;
     font-size: 20px;
 }
@@ -251,7 +251,7 @@ align-self: flex-start;
 
 .date {
     font-family: 'Roboto', 'sans-serif';
-    color: #d05772;
+    color: #e1949a;
     margin-top: 15px;
     margin-bottom: 4px;
 }
@@ -291,7 +291,7 @@ align-self: flex-start;
 }
 
 .skills-heading {
-    color: #d05772;
+    color: #e1949a;
     margin-top: 20px;
 }
 
@@ -299,7 +299,7 @@ align-self: flex-start;
 .big-icon {
     display: inline-flex;
     justify-content: center;
-    border: 3px solid #d05772;
+    border: 3px solid #e1949a;
     border-radius: 50%;
     width: 70px;
     height: 70px;
@@ -318,7 +318,7 @@ align-self: flex-start;
     text-align: center;
     justify-content: center;
     color: #ffffff;
-    background:#26a2aa;  
+    background:#62BDC3;  
     height: 250px;
     font-size: 16px;
     letter-spacing: 0.2px;
@@ -408,6 +408,10 @@ align-self: flex-start;
 
     .article-card {
         margin: 20px;
+        max-width: 350px;
+    }
+
+    .card-img {
         max-width: 350px;
     }
 
