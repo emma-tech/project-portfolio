@@ -1,7 +1,5 @@
-/* Style for project: portfolio */
-
-/* Fonts imported from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap');
+/* STYLE FOR PROJECT: PORTFOLIO */
+/* ======================================================= */
 
 /* Colors for later:
 
@@ -13,7 +11,15 @@
 
 */
 
-/* Basic styling */
+/* TYPOGRAPHY */
+
+/* Fonts imported from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap');
+
+/* ======================================================= */
+
+/* BASIC STYLING */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -28,18 +34,15 @@ body {
     font-family: 'Montserrat', 'sans-serif';
 }
 
-p {
-    font-weight: lighter;
-}
-
 a {
     color: #61BDC2;
     text-decoration: none;
     cursor: pointer;
-    font-weight: bold;
 }
 
-/* Style for the header */
+/* ======================================================= */
+
+/* STYLE FOR THE HEADER */
 
 .portfolio-header {
     font-family: 'Roboto', sans-serif;
@@ -52,7 +55,6 @@ a {
 .name {
     font-weight: bold;
 }
-
 
 .header-h1 {
     color: #ffffff;
@@ -73,7 +75,7 @@ a {
     justify-content: space-between;
     width: 100%;
     /* Photo by Gradienta from Unsplash */
-    background-image: linear-gradient(rgba(121, 119, 119, 0.205), rgba(230, 230, 230, 0.253)), url(./img/gradienta-7brhZmwXn08-unsplash.jpg);
+    background-image: linear-gradient(rgba(121, 119, 119, 0.205), rgba(230, 230, 230, 0.253)), url(./img/header_img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
@@ -83,6 +85,8 @@ a {
 .header-text {
 align-self: flex-start;
 }
+
+/* Style for icons and profile picture */
 
 .icon {
     display: inline-flex;
@@ -94,7 +98,6 @@ align-self: flex-start;
     cursor: pointer;
 }
 
-/* Style for the profile picture */
 .profile-picture {
     width: 200px;
     height: 200px;
@@ -103,25 +106,46 @@ align-self: flex-start;
     margin-bottom: -25px;
 }
 
+/* ======================================================= */
+
+/* STYLE FOR PINK LINE AND BOX */
+
+/* Style for the span with pink line and dot */
+
 .pink-line {
     display: inline-block;
-    width: 80px;
-    height: 9px;
-    border-top: 3px solid #F5B4B4;
+    width: 55px;
+    height: 7px;
+    border-top: 2px solid #F5B4B4;
 }
 
 .pink-dot {
     display: inline-block;
-    width: 15px;
-    height: 15px;
-    border: 2px solid #F5B4B4;
+    width: 11px;
+    height: 11px;
+    border: 3px solid #F5B4B4;
     background-color: #F5B4B4;
-    margin-right: 15px;
+    margin-right: 8px;
     margin-left: -1px;
     border-radius: 50%;
 }
 
-/* Basic styling for grey and white sections */
+/* Style for the pink box around section headings */
+
+.heading-box {
+    text-align: center;
+    background: #F5B4B4;
+    color: #ffffff;
+    margin: auto;
+    padding: 1px 16px 1px 16px;
+}
+
+/* ======================================================= */
+
+/* STYLE FOR SECTIONS */
+
+/* Basic styling for the grey and white sections */
+
 .section-grey {
     display: flex;
     flex-direction: column;
@@ -147,51 +171,38 @@ align-self: flex-start;
     line-height: 1.6;
 }
 
-.heading-box {
-    text-align: center;
-    background: #F5B4B4;
-    color: #ffffff;
-    margin: auto;
-    padding: 1px 16px 1px 16px;
-}
-
-
-/* Style for tech-section */
-.tech-text {
-    margin-top: 20px;
-}
-
-/*Style for project section */
-.project-wrapper {
+.feature-wrapper, .other-more-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 40px;
+    max-width: 100%;
 }
 
-/* Style for project cards */
-.project-card {
-width: 400px;
+/* Basic styling for articles and cards in project and thoughts section */
+
+.article-card {
+    max-width: 400px;
 }
 
-.project-card-link {
+.card-link {
     color: #000000;
     text-decoration: none;
     cursor: pointer;
 }
 
-.project-card-img {
+.card-img {
     max-width: 100%;
 }
 
-.project-description {
+.article-description {
     font-family: 'Roboto', 'sans-serif';
     font-size: 16px;
-    margin-top: 10px;
+    margin-top: 12px;
 }
 
-.project-title, .arrow {
+.article-title, .arrow {
     color: #F5B4B4;
     font-weight: bold;
     font-size: 18px;
@@ -201,13 +212,9 @@ width: 400px;
     text-decoration: underline;
 }
 
-.project-text {
-    font-weight: lighter;
-}
-
 .tags {
     display: inline-flex;
-    margin: 10px 0px 40px 0px;
+    margin: 15px 0px 50px 0px;
 }
 
 .category {
@@ -219,8 +226,64 @@ width: 400px;
     padding: 2px 6px 2px 6px;
 }
 
+.header-h3 {
+    text-align: center;
+    color: #F5B4B4;
+    margin-top: 40px;
+}
 
-/* Style for the footer */
+/* ======================================================= */
+
+/* SPECIFIC STYLING NEEDED FOR THE DIFFERENT SECTIONS */
+
+/* Specific style for tech-section */
+.tech-text {
+    margin-top: 20px;
+}
+
+/* Specific style for project - section */
+.other-more-wrapper {
+    margin-top: 15px;
+}
+
+/* Specific style for the thoughts - section */
+
+.section-white.thoughts-section {
+    text-align: left;
+}
+
+.date {
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: lighter;
+    color: #F5B4B4;
+    margin-top: 15px;
+    margin-bottom: 4px;
+}
+
+.thoughts-heading {
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: bold;
+}
+
+.article-description.thoughts {
+    margin-top: 4px;
+    margin-bottom: 40px;
+}
+
+.article-card.more-thoughts {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.more-thoughts-link {
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: bold;
+    color: #000000;
+}
+
+/* ======================================================= */
+
+/* STYLE FOR THE FOOTER */
 
 .footer {
     display: flex;
@@ -245,8 +308,9 @@ width: 400px;
     cursor: pointer;
 }
 
+/* ======================================================= */
 
-/* Media queries - Responsive design */
+/* MEDIA QUERIES - Responsive design */
 
 @media screen and (min-width: 280px) {
     
@@ -258,28 +322,27 @@ width: 400px;
 }
 
 @media screen and (min-width:420px) {
-
     
 }
 
   
 @media screen and (min-width:768px) {
     
+    .profile-picture {
+        width: 180px;
+        height: 180px;
+    }
+    
     .header {
         padding: 86px 62px 0px 62px;
     }
-    
-    .profile-picture {
-        width: 250px;
-        height: 250px;
-    } 
 
     .section-grey {
-        padding: 86px 62px 0px 62px;
+        padding: 62px;
     }
 
     .section-white {
-        padding: 86px 62px 0px 62px;
+        padding: 62px;
     }
 
 }
@@ -315,3 +378,5 @@ width: 400px;
         font-size: 22px;
     }
 }
+
+/* ======================================================= */
