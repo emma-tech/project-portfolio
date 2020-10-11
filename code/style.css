@@ -1,16 +1,6 @@
 /* STYLE FOR PROJECT: PORTFOLIO */
 /* ======================================================= */
 
-/* Colors for later:
-
-#61BDC2 blue
-#B2DED7 turqoise
-#C7DED6 light green
-#F5B4B4 darker pink
-#FBB5BA lighter pink
-
-*/
-
 /* TYPOGRAPHY */
 
 /* Fonts imported from Google Fonts */
@@ -410,7 +400,6 @@ align-self: flex-start;
     }
 
     /* On desktop / larger tablets: display projects and blogposts on rows instead of column */
-
     .feature-wrapper {
         display: flex;
         flex-direction: row;
@@ -445,8 +434,7 @@ align-self: flex-start;
         padding: 80px 250px 100px 250px;
     }
 
-    /* On desktop / larger tablets: display projects and blogposts on rows instead of column */
-
+    /* On larger screens: display projects and blogposts on rows instead of column */
     .feature-wrapper {
         display: flex;
         flex-direction: row;
@@ -469,8 +457,7 @@ align-self: flex-start;
         padding: 120px 400px 100px 400px;
     }
 
-    /* On desktop / larger tablets: display projects and blogposts on rows instead of column */
-
+    /* On larger screens: display projects and blogposts on rows instead of column */
     .feature-wrapper {
         display: flex;
         flex-direction: row;
