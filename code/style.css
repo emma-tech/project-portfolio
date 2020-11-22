@@ -29,10 +29,15 @@ body {
 }
 
 .introduction-link {
-    color: #9256BF;
+    color: #ffab1b;
     text-decoration: none;
     cursor: pointer;
     font-weight: bold;
+}
+
+.introduction-link:hover {
+    color: #000000;
+    transition: 0.5s ease;
 }
 
 /* ======================================================= */
@@ -42,7 +47,7 @@ body {
 .portfolio-header {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    color: #ffffff;
+    color: #000000;
     font-weight: lighter;
     padding: 5px;
 }
@@ -52,13 +57,13 @@ body {
 }
 
 .header-h1 {
-    color: #ffffff;
+    color: #000000;
     font: bold;
     font-size: 40px;
 }
 
 .header-h2 {
-    color: #ffffff;
+    color: #000000;
     font: bold;
     margin-top: 10px;
 }
@@ -69,8 +74,8 @@ body {
     align-items: flex-end;
     justify-content: space-between;
     width: 100%;
-    /* Photo by Camille Couvez from Unsplash */
-    background-image: url(./img/camille-couvez-H5PnIYI_1I0-unsplash.jpg);
+    /* Photo by Martin Adams from Unsplash */
+    background-image: url(./img/martin-adams-MpTdvXlAsVE-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
@@ -82,11 +87,10 @@ align-self: flex-start;
 }
 
 /* Style for icons and profile picture */
-
 .icon {
     display: inline-flex;
     justify-content: center;
-    border: 3px solid #ffffff;
+    border: 3px solid #000000;
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -96,41 +100,38 @@ align-self: flex-start;
 .profile-picture {
     width: 200px;
     height: 200px;
-    border: 3px solid #ffffff;
+    border: 3px solid #000000;
     border-radius: 50%;
     margin-bottom: -25px;
 }
 
 /* ======================================================= */
 
-/* STYLE FOR PINK LINE AND BOX */
+/* STYLE FOR LINE-DOT + BOXES */
 
-/* Style for the span with pink line and dot */
+/* Style for line with dot in introduction */
 
-.pink-line {
+.line {
+    border: 1px solid #ffab1b;
+    width: 40px;
     display: inline-block;
-    width: 55px;
-    height: 7px;
-    border-top: 2px solid #e1545f;
+    margin-bottom: 4px;
 }
 
-.pink-dot {
-    display: inline-block;
-    width: 11px;
-    height: 11px;
-    border: 3px solid #e1545f;
-    background-color: #e1545f;
-    margin-right: 8px;
-    margin-left: -1px;
+.dot {
+    margin-right: 5px;
+    height: 10px;
+    width: 10px;
+    background-color: #ffab1b;
     border-radius: 50%;
+    display: inline-block;
 }
 
-/* Style for the pink box around section headings */
-
+/* Style for the colored box around section headings */
 .heading-box {
     font-size: 22px;
     text-align: center;
-    background: #9256BF;
+    background: #000000;
     color: #ffffff;
     margin: auto;
     padding: 1px 16px 1px 16px;
@@ -141,12 +142,11 @@ align-self: flex-start;
 /* STYLE FOR SECTIONS */
 
 /* Basic styling for the grey and white sections */
-
 .section-grey {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: #f4f4f4;
+    background: #f5f5f5;
     height: 100%;
     padding: 46px 32px 46px 32px;
     font-size: 16px;
@@ -177,7 +177,6 @@ align-self: flex-start;
 }
 
 /* Basic styling for articles and cards in project and thoughts section */
-
 .article-card {
     max-width: 400px;
 }
@@ -192,6 +191,7 @@ align-self: flex-start;
     max-width: 100%;
 }
 
+
 .article-description {
     font-family: 'Roboto', 'sans-serif';
     font-size: 16px;
@@ -199,7 +199,7 @@ align-self: flex-start;
 }
 
 .article-title, .arrow {
-    color: #8A53C0;
+    color: #ffab1b;
     font-weight: bold;
     font-size: 18px;
 }
@@ -216,15 +216,15 @@ align-self: flex-start;
 .category {
     font-family: 'Roboto';
     font-size: 14px;
-    background: #e1545f;
-    color: #ffffff;
+    background: #ffe9c0;
+    color: #000000;
     margin-right: 10px;
     padding: 2px 6px 2px 6px;
 }
 
 .header-h3 {
     text-align: center;
-    color: #8A53C0;
+    color: #ffab1b;
     margin-top: 40px;
     font-size: 20px;
 }
@@ -251,9 +251,10 @@ align-self: flex-start;
 
 .date {
     font-family: 'Roboto', 'sans-serif';
-    color: #8A53C0;
+    color: #ffab1b;
     margin-top: 15px;
     margin-bottom: 4px;
+    font-weight: bold;
 }
 
 .thoughts-heading {
@@ -291,7 +292,7 @@ align-self: flex-start;
 }
 
 .skills-heading {
-    color: #8A53C0;
+    color: #ffab1b;
     margin-top: 20px;
 }
 
@@ -299,7 +300,7 @@ align-self: flex-start;
 .big-icon {
     display: inline-flex;
     justify-content: center;
-    border: 3px solid #e1545f;
+    border: 3px solid #ffab1b;
     border-radius: 50%;
     width: 70px;
     height: 70px;
@@ -317,8 +318,8 @@ align-self: flex-start;
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    color: #ffffff;
-    background:#2E1861;  
+    color: #000000; 
+    background: #ffe9c0;  
     height: 250px;
     font-size: 16px;
     letter-spacing: 0.2px;
@@ -329,10 +330,15 @@ align-self: flex-start;
     font-weight: bold;
 }
 
-.footer > a {
-    color: #ffffff;
+.email-link {
+    color: #000000;
     text-decoration: none;
     cursor: pointer;
+}
+
+.email-link:hover {
+    color: #F28705;
+    transition: 0.5s ease;
 }
 
 /* ======================================================= */
@@ -378,6 +384,11 @@ align-self: flex-start;
         padding: 62px;
     }
 
+    .article-card {
+        width: 300px;
+        height: auto;
+    }
+
 }
 
 @media screen and (min-width:1024px) {
@@ -391,12 +402,17 @@ align-self: flex-start;
         height: 250px;
     }
 
+    .introduction-text {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+
     .section-grey {
-        padding: 60px 120px 90px 120px;
+        padding: 60px 72px 90px 72px;
     }
 
     .section-white {
-        padding: 60px 120px 90px 120px;
+        padding: 60px 72px 90px 72px;
     }
 
     /* On desktop / larger tablets: display projects and blogposts on rows instead of column */
@@ -419,48 +435,34 @@ align-self: flex-start;
     }
 }
 
-@media screen and (min-width:1300px) {
+@media screen and (min-width:1200px) {
 
     .header {
         padding: 120px 250px 100px 250px;
     }
 
     .section-grey {
-        padding: 80px 250px 100px 250px;
+        padding: 60px 160px 80px 160px;
     }
 
     .section-white {
-        padding: 80px 250px 100px 250px;
-    }
-
-    /* On larger screens: display projects and blogposts on rows instead of column */
-    .feature-wrapper {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        padding: 60px 180px 80px 180px;
     }
 }
 
 
-@media screen and (min-width:1600px) {
+@media screen and (min-width:1500px) {
 
     .header {
         padding: 120px 400px 100px 400px;
     }
 
     .section-grey {
-        padding: 120px 400px 100px 400px;
+        padding: 100px 310px 100px 310px;
     }
 
     .section-white {
-        padding: 120px 400px 100px 400px;
-    }
-
-    /* On larger screens: display projects and blogposts on rows instead of column */
-    .feature-wrapper {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        padding: 100px 310px 100px 310px;
     }
 }
 
