@@ -185,7 +185,7 @@ align-self: flex-start;
     color: #000000;
     text-decoration: none;
     cursor: pointer;
-} 
+}
 
 .card-img {
     max-width: 100%;
@@ -247,6 +247,11 @@ align-self: flex-start;
 
 .arrow {
     text-decoration: underline;
+}
+
+.arrow:hover {
+    color: #F28705;
+    transition: 0.5s ease;
 }
 
 .tags {
@@ -312,6 +317,11 @@ align-self: flex-start;
     font-family: 'Roboto', 'sans-serif';
     font-weight: bold;
     color: #000000;
+}
+
+.more-thoughts-link:hover {
+    color: #F28705;
+    transition: 0.5s ease;
 }
 
 /* Specific style for skills - section */
