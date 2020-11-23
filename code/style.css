@@ -29,14 +29,14 @@ body {
 }
 
 .introduction-link {
-    color: #ffab1b;
+    color: #000000;
     text-decoration: none;
     cursor: pointer;
     font-weight: bold;
 }
 
 .introduction-link:hover {
-    color: #000000;
+    color: #ffab1b;
     transition: 0.5s ease;
 }
 
@@ -131,8 +131,8 @@ align-self: flex-start;
 .heading-box {
     font-size: 22px;
     text-align: center;
-    background: #000000;
-    color: #ffffff;
+    color: #000000; 
+    background: #ffe9c0; 
     margin: auto;
     padding: 1px 16px 1px 16px;
 }
@@ -240,7 +240,7 @@ align-self: flex-start;
 }
 
 .article-title, .arrow {
-    color: #ffab1b;
+    color: #000000;
     font-weight: bold;
     font-size: 18px;
 }
@@ -265,7 +265,7 @@ align-self: flex-start;
 
 .header-h3 {
     text-align: center;
-    color: #ffab1b;
+    color: #000000;
     margin-top: 40px;
     font-size: 20px;
 }
@@ -292,7 +292,7 @@ align-self: flex-start;
 
 .date {
     font-family: 'Roboto', 'sans-serif';
-    color: #ffab1b;
+    color: #000000;
     margin-top: 15px;
     margin-bottom: 4px;
     font-weight: bold;
@@ -333,7 +333,7 @@ align-self: flex-start;
 }
 
 .skills-heading {
-    color: #ffab1b;
+    color: #000000;
     margin-top: 20px;
 }
 

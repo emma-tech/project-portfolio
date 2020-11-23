@@ -1,5 +1,9 @@
-# project-portfolio
-First draft of my portfolio with presentation, contact details and code projects.
+# project-portfolio 👩‍💻
+Hi! I'm Emma 👋 Welcome to my portfolio with inspiration, articles and a collection of my latest projects in frontend development.
 
-# Link to my deployed site (will be transferred to my own domain later): 
+# Tech ⚡️
+- HTML5
+- CSS3
+
+# Link to deployed site (will be transferred to my own domain later): 
 https://condescending-jennings-998f0a.netlify.app
