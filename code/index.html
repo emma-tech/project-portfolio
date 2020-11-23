@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="Emma Urman's Portfolio" />
+    <meta property="og:title" content="Emma Urman | Portfolio" />
     <meta
     property="og:description"
-    content="A portfolio and collection of projects by Emma"
+    content="Hi! I'm Emma 👋 Welcome to my portfolio with a collection of my latest projects in frontend development."
     />
     <meta
     property="og:image"
@@ -19,7 +19,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon_io/favicon-16x16.png">
     <link rel="manifest" href="./favicon.io/site.webmanifest">
-    <title>Emma Urman | Portfolio</title>
+    <title>Emma Urman | Frontend developer | Portfolio</title>
 </head>
 
 <body>
@@ -60,8 +60,7 @@
         </p>
     </section>
 
-    <section class="section-white tech">
-        <!-- Tech section -->
+    <section class="section-white tech">  <!-- Tech section -->
         <div class="heading-box">
             <h3 tabindex="0">TECH</h3>
         </div>
@@ -71,8 +70,7 @@
         </p>
     </section>
 
-    <section class="section-grey featured-projects">
-        <!-- Project section -->
+    <section class="section-grey featured-projects"> <!-- Project section -->
 
         <div class="heading-box">
             <h3 tabindex="0">FEATURED PROJECTS</h3>
@@ -80,15 +78,62 @@
 
         <div class="feature-wrapper">
             <!-- Flexbox wrapper for featured projects -->
-            <a class="card-link" href="https://w6-weather-app.netlify.app/">
+            <a class="card-link" href="https://github.com/emma-tech/project-react-native-app">
                 <article class="article-card">
-                    <img class="card-img" src="./img/weatherapp.png" alt="Weather app" />
-                    <p class="article-description">
-                        <span class="article-title">WEATHER APP.</span> Web app built with JavaScript using an open
-                        weather API <span class="arrow">&gt;&gt;</span>
+                    <div class="overlay-container">
+                        <img class="article-image" src="./img/project_christmas-app.jpg" alt="Weather app" />
+                        <div class="overlay">
+                          <div class="overlay-text">CHRISTMAS APP</div>
+                        </div>
+                    </div>
+                    <p class="article-description"> 
+                        <span class="article-title">CHRISTMAS APP.</span> 
+                            A multiscreen Christmas app built in React Native and also using a countdown, expo-sensors and styled components. 
+                        <span class="arrow">&gt;&gt;</span>
                     </p>
                     <div class="tags">
-                        <p class="category">HTML5</p>
+                        <p class="category">React Native</p>
+                        <p class="category">JavaScript ES6</p>
+                    </div>
+                </article>
+            </a>
+
+            <a class="card-link" href="https://movie-toplist.netlify.app/">
+                <article class="article-card">
+                    <div class="overlay-container">
+                        <img class="article-image" src="./img/project_movies.png" alt="Weather app" />
+                        <div class="overlay">
+                          <div class="overlay-text">MOVIE SITE</div>
+                        </div>
+                    </div>
+                    <p class="article-description">
+                        <span class="article-title">MOVIE SITE.</span> 
+                            A multipage React application using React router and themoviedb.org's API to create a movie toplist website.  
+                        <span class="arrow">&gt;&gt;</span>
+                    </p>
+                    <div class="tags">
+                        <p class="category">React</p>
+                        <p class="category">CSS3</p>
+                        <p class="category">API:s</p>
+                    </div>
+                </article>
+            </a>
+
+            <a class="card-link" href="https://happy-thoughts-project.netlify.app/">
+                <article class="article-card">
+                    <div class="overlay-container">
+                        <img class="article-image" src="./img/project_happy-thoughts.png" alt="Weather app" />
+                        <div class="overlay">
+                          <div class="overlay-text">HAPPY THOUGHTS</div>
+                        </div>
+                    </div>                    
+                    <p class="article-description">
+                        <span class="article-title">HAPPY THOUGHTS.</span> 
+                            Web app for posting and liking Happy Thoughts, built with React using an API created by our teachers at Technigo. 
+                        <span class="arrow">&gt;&gt;</span>
+                    </p>
+                    <div class="tags">
+                        <p class="category">React</p>
                         <p class="category">CSS3</p>
                         <p class="category">JavaScript ES6</p>
                         <p class="category">API:s</p>
@@ -96,47 +141,21 @@
                 </article>
             </a>
 
-            <a class="card-link" href="https://w6-weather-app.netlify.app/">
+            <a class="card-link" href="https://spotify-by-emma-karin.netlify.app/">
                 <article class="article-card">
-                    <img class="card-img" src="./img/weatherapp.png" alt="Weather app" />
-                    <p class="article-description">
-                        <span class="article-title">WEATHER APP.</span> Web app built with JavaScript using an open
-                        weather API <span class="arrow">&gt;&gt;</span>
-                    </p>
-                    <div class="tags">
-                        <p class="category">HTML5</p>
-                        <p class="category">CSS3</p>
-                        <p class="category">JavaScript ES6</p>
-                        <p class="category">API:s</p>
+                    <div class="overlay-container">
+                        <img class="article-image" src="./img/project_music-releases.png" alt="Weather app" />
+                        <div class="overlay">
+                          <div class="overlay-text">MUSIC RELEASES</div>
+                        </div>
                     </div>
-                </article>
-            </a>
-
-            <a class="card-link" href="https://w6-weather-app.netlify.app/">
-                <article class="article-card">
-                    <img class="card-img" src="./img/weatherapp.png" alt="Weather app" />
                     <p class="article-description">
-                        <span class="article-title">WEATHER APP.</span> Web app built with JavaScript using an open
-                        weather API <span class="arrow">&gt;&gt;</span>
+                        <span class="article-title">MUSIC RELEASES.</span> 
+                            Web app built with React. A one-page application showing new albums and single releases from the Spotify API.
+                        <span class="arrow">&gt;&gt;</span>
                     </p>
                     <div class="tags">
-                        <p class="category">HTML5</p>
-                        <p class="category">CSS3</p>
-                        <p class="category">JavaScript ES6</p>
-                        <p class="category">API:s</p>
-                    </div>
-                </article>
-            </a>
-
-            <a class="card-link" href="https://w6-weather-app.netlify.app/">
-                <article class="article-card">
-                    <img class="card-img" src="./img/weatherapp.png" alt="Weather app" />
-                    <p class="article-description">
-                        <span class="article-title">WEATHER APP.</span> Web app built with JavaScript using an open
-                        weather API <span class="arrow">&gt;&gt;</span>
-                    </p>
-                    <div class="tags">
-                        <p class="category">HTML5</p>
+                        <p class="category">React</p>
                         <p class="category">CSS3</p>
                         <p class="category">JavaScript ES6</p>
                         <p class="category">API:s</p>
@@ -146,13 +165,28 @@
         </div> <!-- End of featured projects wrapper -->
 
         <h3 class="header-h3" tabindex="0"> OTHER PROJECTS </h3>
-        <div class="other-more-wrapper">
-            <!-- Flexbox wrapper for other projects -->
+        <div class="other-more-wrapper"> <!-- Flexbox wrapper for other projects -->
+            <a class="card-link" href="https://project-survey-favorite-plants.netlify.app/">
+                <article>
+                    <p class="article-description">
+                        <span class="article-title">SURVEY.</span> 
+                            Practicing state and controlled forms in React by building a survey
+                        <span class="arrow">&gt;&gt;</span>
+                    </p>
+                    <div class="tags">
+                        <p class="category">React</p>
+                        <p class="category">CSS3</p>
+                        <p class="category">JavaScript ES6</p>
+                    </div>
+                </article>
+            </a>
+
             <a class="card-link" href="https://w6-weather-app.netlify.app/">
                 <article>
                     <p class="article-description">
-                        <span class="article-title">WEATHER APP.</span> Web app built with JavaScript using an open
-                        weather API <span class="arrow">&gt;&gt;</span>
+                        <span class="article-title">WEATHER APP.</span> 
+                            Web app built with JavaScript using an open weather API 
+                        <span class="arrow">&gt;&gt;</span>
                     </p>
                     <div class="tags">
                         <p class="category">HTML5</p>
@@ -163,32 +197,17 @@
                 </article>
             </a>
 
-            <a class="card-link" href="https://w6-weather-app.netlify.app/">
+            <a class="card-link" href="">
                 <article>
                     <p class="article-description">
-                        <span class="article-title">WEATHER APP.</span> Web app built with JavaScript using an open
-                        weather API <span class="arrow">&gt;&gt;</span>
+                        <span class="article-title">CLUEDO.</span> 
+                        JavaScript project inspired by my favorite childhood board game &#128373;
+                        <span class="arrow">&gt;&gt;</span>
                     </p>
                     <div class="tags">
                         <p class="category">HTML5</p>
                         <p class="category">CSS3</p>
                         <p class="category">JavaScript ES6</p>
-                        <p class="category">API:s</p>
-                    </div>
-                </article>
-            </a>
-
-            <a class="card-link" href="https://w6-weather-app.netlify.app/">
-                <article>
-                    <p class="article-description">
-                        <span class="article-title">WEATHER APP.</span> Web app built with JavaScript using an open
-                        weather API <span class="arrow">&gt;&gt;</span>
-                    </p>
-                    <div class="tags">
-                        <p class="category">HTML5</p>
-                        <p class="category">CSS3</p>
-                        <p class="category">JavaScript ES6</p>
-                        <p class="category">API:s</p>
                     </div>
                 </article>
             </a>
@@ -197,62 +216,56 @@
 
     <section class="section-white thoughts-section">
         <!-- My thoughts - section -->
+       
         <div class="heading-box">
             <h3 tabindex="0">MY THOUGHTS</h3>
         </div>
 
-        <div class="feature-wrapper">
-            <!-- Flexbox wrapper for featured blogposts  -->
-            <a class="card-link" href="https://w6-weather-app.netlify.app/">
+        <div class="feature-wrapper">  <!-- Flexbox wrapper for featured blogposts  -->
+            <a class="card-link" href="https://emma-urman.medium.com/growth-mindset-coding-%EF%B8%8F-547fcb5f3b28">
                 <article class="article-card">
-                    <img class="card-img" src="./img/watch.png" alt="Weather app" />
-                    <div class="date"> | OCT 2020 |</div>
-                    <h3 class="thoughts-heading">Come up with a great title.</h3>
-                    <p class="article-description thoughts">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur.
-                        <span class="arrow">&gt;&gt;</span>
-                    </p>
+                    <img class="card-img" src="./img/drew-beamer-Vc1pJfvoQvY-unsplash.jpg" alt="Motivation poster" />
+                    <div class="date">| NOV 2020 |</div>
+                    <h3 class="thoughts-heading">Growth mindset + coding = &#128155;</h3>
+                        <p class="article-description thoughts">
+                            Learning how to code when you’re a complete beginner and decide to attend a fast-paced coding bootcamp 
+                            is one of the most fun and amazing but also most challenging things I’ve ever done. 
+                            Something I realized quite soon is that your mindset is crucial for success. 
+                            It’s your mindset that defines how you take on a new challenge, solve problems and learn new things.
+                            <span class="arrow">&gt;&gt;</span>
+                        </p>
                 </article>
             </a>
 
-            <a class="card-link" href="https://w6-weather-app.netlify.app/">
+            <a class="card-link" href="https://emma-urman.medium.com/taking-a-leap-learning-to-code-and-change-career-8eb30ddb793f">
                 <article class="article-card">
-                    <img class="card-img" src="./img/computer.png" alt="Weather app" />
-                    <div class="date"> | OCT 2020 |</div>
-                    <h3 class="thoughts-heading">Come up with a great title.</h3>
-                    <p class="article-description thoughts">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur.
-                        <span class="arrow">&gt;&gt;</span>
-                    </p>
+                    <img class="card-img" src="./img/etienne-boulanger-JmS0fkLlUtA-unsplash.jpg" alt="Person jumping on a bridge"/>
+                    <div class="date">| NOV 2020 |</div>
+                    <h3 class="thoughts-heading">Learning to code and change career</h3>
+                        <p class="article-description thoughts">
+                            My journey towards becoming a web developer began almost 1,5 years ago today. 
+                            I felt sort of stuck in my old routines and in a job that didn’t really challenge me anymore, 
+                            and scrolling through social media one day I saw an announcement for a two-day coding course called “{hello, girl!}”. 
+                            It was a collaboration between Science Park Jönköping, local companies and schools to get more women interested in programming.
+                            <span class="arrow">&gt;&gt;</span>
+                        </p>
                 </article>
             </a>
 
         </div> <!-- End of featured blogposts wrapper -->
 
         <h3 class="header-h3" tabindex="0"> MORE THOUGHTS</h3>
-        <div class="other-more-wrapper">
-            <!-- Flexbox wrapper for other blogposts -->
-
-            <a href="https://w6-weather-app.netlify.app/" class="more-thoughts-link">
+        <div class="other-more-wrapper">  <!-- Flexbox wrapper for other blogposts -->
+            <a href="#" class="more-thoughts-link">
                 <article>
-                    <span class="date">SEPT 2020.</span> Web app built with JavaScript using an open weather API
+                    <span class="date">NOV 2020.</span> Coming up: beginners guide to coding
                     <span class="arrow">&gt;&gt;</span>
                 </article>
             </a>
 
-            <a href="https://w6-weather-app.netlify.app/" class="more-thoughts-link">
+            <a href="#" class="more-thoughts-link">
                 <article>
-                    <span class="date">SEPT 2020.</span> Web app built with JavaScript using an open weather API
+                    <span class="date">NOV 2020.</span> A great article coming up here...
                     <span class="arrow">&gt;&gt;</span>
                 </article>
             </a>
@@ -260,22 +273,23 @@
         </div> <!-- End of wrapper for other blogposts -->
     </section>
 
-    <section class="section-grey skills">
-        <!-- Skills section -->
+    <section class="section-grey skills"> <!-- Skills section -->
+        
         <div class="heading-box">
             <h3 tabindex="0">SKILLS</h3>
         </div>
 
-        <div class="skills-wrapper">
+        <div class="skills-wrapper"> <!-- Skills wrapper -->
             <div class="skills-container">
                 <h3 class="skills-heading" tabindex="0">CODE</h3>
                 <p class="skills-text">HTML5</p>
                 <p class="skills-text">CSS3</p>
-                <p class="skills-text">JavaScript</p>
+                <p class="skills-text">JavaScript ES6</p>
+                <p class="skills-text">React</p>
                 <p class="skills-text">Command Line</p>
-                <p class="skills-text">API</p>
+                <p class="skills-text">API:s</p>
                 <p class="skills-text">Flexbox</p>
-                <p class="skills-text">Grid</p>
+                <p class="skills-text">React Native (basics)</p>
             </div>
 
             <div class="skills-container">
@@ -291,7 +305,6 @@
 
             <div class="skills-container">
                 <h3 class="skills-heading" tabindex="0">UPCOMING</h3>
-                <p class="skills-text">React</p>
                 <p class="skills-text">Redux</p>
                 <p class="skills-text">Node.js</p>
             </div>
@@ -306,11 +319,21 @@
                 <p class="skills-text">Facebook Ads Manager</p>
             </div>
 
-        </div>
+            <div class="skills-container">
+                <h3 class="skills-heading" tabindex="0">WANT TO LEARN</h3>
+                <p class="skills-text">Design techniques</p>
+                <p class="skills-text">More React Native</p>
+                <p class="skills-text">SASS</p>
+                <p class="skills-text">UI/UX</p>
+                <p class="skills-text">Mongo DB</p>
+                <p class="skills-text">PHP</p>
+                <p class="skills-text">Vue</p>
+            </div>
+        </div> <!-- End of skills wrapper -->
     </section>
 
-    <section class="section-white">
-        <!-- For more section -->
+    <section class="section-white"> <!-- For more section -->
+        
         <div class="heading-box">
             <h3 tabindex="0">FOR MORE</h3>
         </div>
@@ -330,11 +353,10 @@
 
     <footer class="footer">
         <h3 tabindex="0">CONTACT</h3>
-        <p class="footer-text"> Emma Urman </p>
-        <p> +46 706 22 68 63 </p>
-        <a class="email-link" href="mailto:emma.urman@gmail.com">emma.urman@gmail.com</a>
+            <p class="footer-text"> Emma Urman </p>
+            <p> +46 706 22 68 63 </p>
+            <a class="email-link" href="mailto:emma.urman@gmail.com">emma.urman@gmail.com</a>
     </footer>
-
+    
 </body>
-
 </html>
