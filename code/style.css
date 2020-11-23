@@ -131,8 +131,8 @@ align-self: flex-start;
 .heading-box {
     font-size: 22px;
     text-align: center;
-    color: #000000; 
-    background: #FFE0A9; 
+    color: #ffffff;
+    background: #000000;
     margin: auto;
     padding: 1px 16px 1px 16px;
 }
@@ -221,7 +221,7 @@ align-self: flex-start;
   }
   
   .overlay-text {
-    color: white;
+    color: #fff2d2;
     font-size: 20px;
     font-weight: bold;
     position: absolute;
